@@ -1,0 +1,9 @@
+{
+  "name": "vermeer-fe",
+  "version": "0.0.1",
+  "authors": [
+    "Rob Hammann <runrobrun@gmail.com>"
+  ],
+  "description": "Test Bower Project",
+  "license": "MIT"
+}
