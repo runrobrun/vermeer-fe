@@ -1,0 +1,14 @@
+{
+  "name": "vermeer-fe",
+  "version": "1.0.0",
+  "description": "This is an opportunity to learn about some of our front end tools.",
+  "main": " ",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2"
+  },
+  "devDependencies": {
+	"grunt": "^0.4.5",
+    	"grunt-contrib-jshint": "^0.11.2"
+  }
+}
