@@ -1,23 +1,16 @@
-module.exports = function(grunt) {
-
-  grunt.initConfig({
-    jshint: {
-      files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
-      options: {
-        globals: {
-          jQuery: true
+require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks 
+ 
+grunt.initConfig({
+    sass: {
+        options: {
+            sourceMap: true
+        },
+        dist: {
+            files: {
+                'main.css': 'main.scss'
+            }
         }
-      }
-    },
-    watch: {
-      files: ['<%= jshint.files %>'],
-      tasks: ['jshint']
     }
-  });
-
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-
-  grunt.registerTask('default', ['jshint']);
-
-};
+});
+ 
+grunt.registerTask('default', ['sass']);

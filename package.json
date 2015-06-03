@@ -8,7 +8,8 @@
     "grunt-contrib-jshint": "^0.11.2"
   },
   "devDependencies": {
-	"grunt": "^0.4.5",
-    	"grunt-contrib-jshint": "^0.11.2"
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-sass": "^1.0.0"
   }
 }
